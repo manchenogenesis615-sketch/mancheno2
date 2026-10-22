@@ -1,0 +1,113 @@
+.contacto{
+ border:4px dotted ;
+ float:border:left:#FF779E;
+ background:  #FFC5D3;
+ width:40%;
+ margin:30px;
+ height: 900px;
+}
+
+h1{
+ 	text-align: center;
+ 	color: #f70071;
+}
+
+h2{
+text-align: center;
+color:#730c63
+
+}
+
+{
+  font-family: arial;
+ font-size: 17px;
+}
+
+.servicios{
+	border:4px dotted #DBCCEB;
+	float:left;
+	background:  #D8CCEB;
+	width:30%;
+	margin:15PX;
+	height: 490PX;
+
+}
+
+
+.servicios{
+		border:4px dotted  #FF779E;
+		float:left;
+		background: #FFC5D3;
+		width:30%;
+		margin:15px;
+		height: 490px;
+
+}
+
+header{
+	background-color: #FFC5D3;
+	border-bottom: 3px solid #880E4F;
+	padding: 10px 20px;
+}
+
+.header-container{
+	display:flex;/*ubicar un elemento a lado de otro*/
+	justify-content:space-between;/*reporte la ubicacion de los elementos;
+	align-items:center;
+	max-width:110px;
+	margin:0 auto;
+
+}
+.logo{
+	font-size:20px;/*tamaño de fuente*/
+	font-weight: bold;/*negritos*/
+	color:#EC407A;
+	}
+nav ul{
+		list-style:none;/*quitar viñetas*/
+		margin:0;
+		padding:0;
+		display:flex;
+		gap:20px;/*separar elementos*/
+	}
+	
+nav ul li a{
+
+text-decoration: none;
+color:#FF4081;
+font-weight: 600;
+padding: 8px 12px;
+border-radius:4px;
+transition:background-color;3 color 0.53;
+
+}
+nav ul li a:border:
+  background-color: #f70071;
+  footer {
+background-color: #1e293b; /* Azul oscuro */
+color: #cbd5e1;
+padding: 20px;
+font-size: 14px;
+}
+
+.footer-container {
+max-width: 1000px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between; /* Texto a la izquierda, contacto a la derecha */
+align-items: center;
+flex-wrap: wrap;
+gap: 15px;
+}
+
+.footer-container p {
+margin: 0;
+}
+
+.footer-container a {
+color: #38bdf8; /* Celeste para resaltar los enlaces directos */
+text-decoration: none;
+}
+
+.footer-container a:hover { 
+text-decoration: underline;
